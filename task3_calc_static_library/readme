@@ -1,0 +1,3 @@
+gcc complex.c -c
+ar rc libcomplex.a complex.o
+gcc main.c -o main -L. -lcomplex
